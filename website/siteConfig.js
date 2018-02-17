@@ -21,7 +21,7 @@ const siteConfig = {
   url: 'https://altusmaterials.github.io' /* your website url */,
   baseUrl: '/documentation/' /* base url for your project */,
   headerLinks: [
-    {doc: 'doc1', label: 'Docs'}
+    // {doc: 'doc1', label: 'Docs'}
   ],
   users,
   /* path to images for header/footer */

@@ -1,4 +1,23 @@
 /* your custom css */
+.navPusher {
+    display: flex;
+    min-height: calc(100vh - 50px);
+    flex-direction: column;
+    height: unset;
+}
+
+.main {
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-wrapper {
+    flex: 1 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 @media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
 }
