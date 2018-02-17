@@ -1,0 +1,24 @@
+{
+  "name": "documentation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "cd website && GIT_USER=amaidah CURRENT_BRANCH=master USE_SSH=true yarn run publish-gh-pages"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/altusmaterials/documentation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/altusmaterials/documentation/issues"
+  },
+  "homepage": "https://github.com/altusmaterials/documentation#readme"
+}
